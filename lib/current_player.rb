@@ -12,6 +12,6 @@ def current_player(board)
   if occupied_positions % 2 == 0
     puts "X"
   else
-    puts "O", "X"
+    puts "O"
   end
 end
