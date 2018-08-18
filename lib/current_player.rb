@@ -9,7 +9,7 @@ occupied_positions
 end
 
 def current_player(board)
-  occupied_positions[1] = "X"
+  move[1] = "X"
   if turn_count(board) % 2 == 0
     puts "O"
   else
